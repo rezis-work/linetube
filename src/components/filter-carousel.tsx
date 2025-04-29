@@ -27,7 +27,7 @@ export const FilterCarousel = ({
   data,
 }: FilterCarouselProps) => {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full z-50">
       <div
         className={cn(
           "absolute left-12 top-0 bottom-0 w-12 z-10 bg-gradient-to-r from-white to-transparent pointer-events-none",
